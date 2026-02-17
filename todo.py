@@ -3,7 +3,7 @@ from tkinter import messagebox
 
 # Create main window
 root = tk.Tk()
-root.title("📝 Ekta's To-Do List 💖")
+root.title("📝To-Do List 💖")
 root.geometry("400x500")
 root.configure(bg="#ffe6f0")  # light pink background
 
@@ -59,3 +59,4 @@ listbox = tk.Listbox(root, font=("Arial", 14), width=30, height=10, bg="#fff0f5"
 listbox.pack(pady=10)
 
 root.mainloop()
+
